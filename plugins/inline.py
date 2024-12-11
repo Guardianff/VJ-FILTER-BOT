@@ -115,7 +115,8 @@ async def answer(bot, query):
 
 def get_reply_markup(query):
     buttons = [[
-        InlineKeyboardButton('Search again', switch_inline_query_current_chat=query)
+        InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ', switch_inline_query_current_chat=query),
+        InlineKeyboardButton('✢ ᴜᴘᴅᴀᴛᴇꜱ ✢', url="https://t.me/AM_FILMS")
     ]]
     return InlineKeyboardMarkup(buttons)
 
